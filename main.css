@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "Archivo Black";
+    src: url(/Fonts/ArchivoBlack-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Logo {
+    max-width: 200px;
+}
+
+body {
+    background-color: black;
+}
+
+nav {
+    color: white;
+    font-family: "Archivo Black", sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
