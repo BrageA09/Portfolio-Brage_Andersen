@@ -71,3 +71,10 @@ label {
     position: absolute;
     display: none;
 }
+
+.intro {
+    color: white;
+    font-family: "Archivo Black", sans-serif;
+    max-width: 380px;
+    margin-left: 20px;
+}
