@@ -7,6 +7,10 @@
 
 .Logo {
     max-width: 75px;
+    user-select: none; 
+        -webkit-user-select: none;   
+        -moz-user-select: none;  
+        -ms-user-select: none;
 }
 
 body {
@@ -18,17 +22,52 @@ nav {
     color: white;
     font-family: "Archivo Black", sans-serif;
     display: flex;
-    justify-content: space-around;
     align-items: baseline;
 }
 
-.info {
-    max-width: 40px;
-    max-height: 40px;
+.nav-item {
+    width: 33%;
+    text-align: center;
 }
 
+nav h1 {
+    user-select: none; 
+        -webkit-user-select: none;   
+        -moz-user-select: none;  
+        -ms-user-select: none;
+    border-bottom: 3px solid white;
+}
+
+
 .contact-items {
+    color: white;
+    display: none;
+}
+
+#Email {
+    margin-top: 10px;
+}
+
+label {
+    user-select: none; 
+        -webkit-user-select: none;   
+        -moz-user-select: none;  
+        -ms-user-select: none;
+}
+
+#Contact {
+    cursor: pointer;
+}
+
+#Contact:hover {
+    text-decoration: underline;
+}
+
+#contact-toggle:checked ~ .contact-items {
+    display: block;
+}
+
+#contact-toggle {
     position: absolute;
-    margin-left: 550px;
-    margin-top: 70px;
+    display: none;
 }

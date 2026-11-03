@@ -5,19 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects-Documentation</title>
     <link rel="stylesheet" href="main.css">
-    <input type="checkbox" id="contact-toggle">
 </head>
 <body>
     <nav>
-        <h1>Brage B. Andersen</h1>
-        <img class="Logo" src="img/Logo.png" alt="Logo, green dot between two brackets">
-        <label for="contact-toggle">
-            <h2>Contact</h2>
-        </label>
-        <div class="contact-items">
-            <a href="tel:+4748495498">tlf: 484 95 498</a>
+        <div class="nav-item">
+            <h1>Brage B. Andersen</h1>
         </div>
-        <img class="info" src="img/HambMenu.png" alt="Hamburger menu">
+        <div class="nav-item">
+            <img class="Logo" src="img/Logo.png" alt="Logo, green dot between two brackets">
+        </div>
+        <div class="contact-menu nav-item">
+            <input type="checkbox" id="contact-toggle">
+            <label for="contact-toggle">
+                <h2 id="Contact">Contact</h2>
+            </label>
+            <a href="tel:+4748495498" class="contact-items">+47 484 95 498</a>
+            <a href="mailto:brage.an.09@gmail.com" class="contact-items" id="Email">brage.an.09@gmail.com</a>
+        </div>
     </nav>
 
 </body> 
