@@ -63,7 +63,7 @@ label {
     text-decoration: underline;
 }
 
-#contact-toggle:checked ~ .contact-items {
+#contact-toggle:checked ~ .contacts .contact-items {
     display: block;
 }
 
@@ -78,3 +78,10 @@ label {
     max-width: 380px;
     margin-left: 20px;
 }
+
+.contacts {
+    position: absolute;
+    margin-left: 100px;
+}
+
+/* Brukte KI for feilsøking i kode når display block delen ikke funket.*/
